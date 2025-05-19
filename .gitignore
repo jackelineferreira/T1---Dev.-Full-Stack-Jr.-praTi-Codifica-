@@ -1,0 +1,22 @@
+# Ignora a pasta node_modules (dependências do projeto)
+node_modules/
+
+# Ignora arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora configurações locais do VS Code
+.vscode/
+
+# Ignora arquivos de ambiente (se usar algum dia)
+.env
+
+# Ignora arquivos de backup ou temporários comuns
+*.tmp
+*.bak
