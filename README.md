@@ -1,87 +1,86 @@
-Lista de Exercícios 1 - Estruturas Básicas em JavaScript (Node.js)
+# Lista de Exercícios 1 - Estruturas Básicas em JavaScript (Node.js)
 
 Este repositório contém a resolução dos exercícios propostos na Lista de Exercícios 1, utilizando a linguagem JavaScript com execução via Node.js. Os exercícios envolvem estruturas básicas, condicionais e de repetição.
 
-📦 Pré-requisitos
+## 📦 Pré-requisitos
 
-Node.js instalado na máquina (versão recomendada: 18.x ou superior)
+- [Node.js](https://nodejs.org/) instalado na máquina (versão recomendada: 18.x ou superior)  
+- [Git](https://git-scm.com/) instalado  
+- Editor de código como [Visual Studio Code](https://code.visualstudio.com/)
 
-Git instalado
+## 🛠️ Configuração do Ambiente
 
-Editor de código como Visual Studio Code
+1. **Clone o repositório:**
 
-🛠️ Configuração do Ambiente
+```bash
+git clone https://github.com/jackelineferreira/T1---Dev.-Full-Stack-Jr.-praTi-Codifica-.git
+cd T1---Dev.-Full-Stack-Jr.-praTi-Codifica-
+```
 
-Clone o repositório:
+2. **Abra no VS Code:**
 
-git clone https://github.com/SEU_USUARIO/exercicios-logica-js.git
-cd exercicios-logica-js
-
-Abra no VS Code:
-
+```bash
 code .
+```
 
-Verifique a instalação do Node.js:
+3. **Verifique a instalação do Node.js:**
 
+```bash
 node -v
+```
 
 Se exibir a versão do Node, está tudo pronto.
 
-🚀 Executando os exercícios
+## 🚀 Executando os exercícios
 
-Cada exercício está comentado individualmente no arquivo exercicios.js. Para executá-los:
+Cada exercício está comentado individualmente no arquivo `exercicios.js`. Para executá-los:
 
-Abra o terminal Git Bash no VS Code
+1. Abra o terminal Git Bash no VS Code  
+2. Execute o script com o comando:
 
-Execute o script com o comando:
-
+```bash
 node exercicios.js
+```
 
-Se desejar executar um único exercício, você pode copiá-lo para um novo arquivo (ex: exercicio1.js) e rodar:
+3. Para executar um exercício específico, copie o código dele para um arquivo separado, ex: `exercicio3.js`, e rode:
 
-node exercicio1.js
+```bash
+node exercicio3.js
+```
 
-Para exercícios que requerem entrada do usuário, é recomendado utilizar a biblioteca readline-sync:
+Para exercícios que pedem entrada de dados pelo usuário, instale a biblioteca `readline-sync`:
 
+```bash
 npm install readline-sync
+```
 
-E no seu arquivo de exercício:
+No seu código, importe e utilize assim:
 
+```javascript
 const readline = require('readline-sync');
 let numero = readline.question('Digite um número: ');
+```
 
-📄 Lista de Exercícios
+## 📄 Lista de Exercícios
 
-Verifica se o número é par ou ímpar
+1. Verifica se o número é par ou ímpar  
+2. Classifica idade em categorias  
+3. Classifica nota  
+4. Menu com switch-case  
+5. Cálculo de IMC  
+6. Verificação de tipo de triângulo  
+7. Cálculo de valor total da compra de maçãs  
+8. Ordenação crescente de dois números  
+9. Contagem regressiva  
+10. Impressão repetida de número  
+11. Soma de 5 números  
+12. Tabuada de um número  
+13. Média de números decimais até zero  
+14. Cálculo de fatorial  
+15. Sequência de Fibonacci  
 
-Classifica idade em categorias
+---
 
-Classifica nota
-
-Menu com switch-case
-
-Cálculo de IMC
-
-Verificação de tipo de triângulo
-
-Cálculo de valor total da compra de maçãs
-
-Ordenação crescente de dois números
-
-Contagem regressiva
-
-Impressão repetida de número
-
-Soma de 5 números
-
-Tabuada de um número
-
-Média de números decimais até zero
-
-Cálculo de fatorial
-
-Sequência de Fibonacci
-
-📌 Em caso de dúvidas, entre em contato ou consulte a documentação oficial do Node.js e Git.
+📌 Em caso de dúvidas, consulte a documentação oficial do Node.js e Git ou entre em contato.
 
 🚀 Bons estudos!
