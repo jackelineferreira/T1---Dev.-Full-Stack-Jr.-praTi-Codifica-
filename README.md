@@ -39,13 +39,13 @@ Cada exercício está comentado individualmente no arquivo `exercicios.js`. Para
 2. Execute o script com o comando:
 
 ```bash
-node exercicios.js
+node ex03-classifica-idade.js
 ```
 
 3. Para executar um exercício específico, copie o código dele para um arquivo separado, ex: `exercicio3.js`, e rode:
 
 ```bash
-node exercicio3.js
+node ex03-classifica-idade.js
 ```
 
 Para exercícios que pedem entrada de dados pelo usuário, instale a biblioteca `readline-sync`:
